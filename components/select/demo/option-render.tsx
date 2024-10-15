@@ -7,28 +7,19 @@ const handleChange = (value: string[]) => {
 
 const options = [
   {
-    label: 'China',
-    value: 'china',
-    emoji: '🇨🇳',
-    desc: 'China (中国)',
+    label: '未着手',
+    value: '0',
+    desc: '未着手',
   },
   {
-    label: 'USA',
-    value: 'usa',
-    emoji: '🇺🇸',
-    desc: 'USA (美国)',
+    label: '作業中',
+    value: '1',
+    desc: '作業中',
   },
   {
-    label: 'Japan',
-    value: 'japan',
-    emoji: '🇯🇵',
-    desc: 'Japan (日本)',
-  },
-  {
-    label: 'Korea',
-    value: 'korea',
-    emoji: '🇰🇷',
-    desc: 'Korea (韩国)',
+    label: '完了',
+    value: '2',
+    desc: '完了',
   },
 ];
 
